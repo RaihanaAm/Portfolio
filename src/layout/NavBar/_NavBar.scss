@@ -4,10 +4,11 @@
     ul {
       list-style: none;
       display: flex;
+      align-items: center;
       justify-content: space-evenly;
       position: fixed;
-      top: 10%;
-      right: 10%;
+      top: 6%;
+      right: 6%;
       // background-color: aqua;
       li {
         margin-left: 20px;
@@ -16,7 +17,7 @@
           display: flex;
           align-items: center;
           h6 {
-            font-size: 16px;
+            font-size: 13px;
             margin: 0 2px;
           }
           span {
@@ -30,8 +31,9 @@
         border-radius: 5px;
         margin-left: 35px;
         width: 90px;
-        height: 30px;
+        height: 33px;
         font-weight: 500;
+        font-size: 13px;
         color: $first;
         background-color: transparent;
       }

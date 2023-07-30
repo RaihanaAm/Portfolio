@@ -1,9 +1,17 @@
 @font-face {
-    font-family: "poppins";
-    src: url(./assets//fonts/Poppins-Regular.ttf);
+  font-family: "poppins";
+  src: url(./assets//fonts/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: "black";
+    src: url(./assets//fonts/Poppins-Bold.ttf);
+  }
 @import "./styles/variable";
-.app{
-    font-family: "poppins";
-    background-color: $bg;
+.app {
+    position: relative;
+  font-family: "poppins";
+  background-color: $bg;
+  height:100vh;
+
+
 }
