@@ -28,7 +28,7 @@ export const NavBar = () => {
             <div className="email">
                 <a href="" className="nav-link">Raihana.amrani999@gmail.com</a>
             </div>
-            <div className="di">k</div>
+            <div className="di"></div>
 
         </div>
     )

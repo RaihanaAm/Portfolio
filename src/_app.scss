@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "poppins";
+    src: url(./assets//fonts/Poppins-Regular.ttf);
+}
+@import "./styles/variable";
+.app{
+    font-family: "poppins";
+    background-color: $bg;
+}
