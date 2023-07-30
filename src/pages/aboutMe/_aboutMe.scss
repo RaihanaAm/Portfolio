@@ -1,0 +1,39 @@
+@import "../../styles/variable";
+.AboutMe {
+  display: flex;
+//   align-items: start;
+  justify-content: space-evenly;
+  color: $first;
+  margin: 10% 0;
+  .image {
+    border: 1px solid $second;
+    padding: 8px;
+    img {
+      width: 300px;
+    }
+  }
+  .aboutt {
+    width: 58%;
+    .title{
+        h1{
+            font-weight: bolder;
+            font-size: 26px;
+            color: $second;
+            opacity: 0.8;
+        }
+    }
+    ul{
+        width: 60%;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-self: start;
+        li{
+            span{
+                color: $second;
+            }
+        }
+    }
+  }
+}

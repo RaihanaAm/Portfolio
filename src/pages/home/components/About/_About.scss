@@ -1,10 +1,8 @@
 @import "../../../../styles/variable";
 .About {
   width: 70%;
-  position: absolute;
-  top: 57%;
-  left: 30%;
-  transform: translate(-25%, -50%);
+ margin: 130px 0 0 170px;
+ 
   .hi {
     color: $second;
     margin-bottom: 20px;
@@ -36,19 +34,10 @@
   }
 }
 
-
-
 .line-1 {
-  // position: relative;
-  // top: 80%;
-  // width: 24em;
-  // margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  // font-size: 180%;
-  // text-align: center;
+  border-right: 8px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-50%);
 }
 
 /* Animation */
@@ -61,12 +50,12 @@
     width: 0;
   }
   to {
-    width: 13.3em;
+    width: 13.7em;
   }
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: $second;
   }
   to {
     border-right-color: transparent;

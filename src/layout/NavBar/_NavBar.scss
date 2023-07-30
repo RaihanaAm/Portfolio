@@ -1,14 +1,15 @@
 @import "../../styles/variable";
 .navbar {
   .resume {
+    // background-color: $second;
+    position: fixed;
+    top: 6%;
+    right: 6%;
     ul {
       list-style: none;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      position: fixed;
-      top: 6%;
-      right: 6%;
       // background-color: aqua;
       li {
         margin-left: 20px;
