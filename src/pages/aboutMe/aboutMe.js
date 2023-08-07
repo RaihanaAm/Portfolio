@@ -16,12 +16,12 @@ export const AboutMe = () => {
                 <div >
                     <ul>
                     <div>
-                        <li><span><MdArrowRight /></span><b>Age:</b>22</li>
-                        <li><span><MdArrowRight /></span><b>Age:</b>22</li>
+                        <li><span><MdArrowRight /></span><b>Birthday :</b> 12 septembre 2001</li>
+                        <li><span><MdArrowRight /></span><b>Phone:</b>22</li>
                         <li><span><MdArrowRight /></span><b>Age:</b>22</li>
                     </div>
                     <div>
-                        <li><span><MdArrowRight /></span><b>Age:</b>22</li>
+                        <li><span><MdArrowRight /></span><b>Age : </b> 22</li>
                         <li><span><MdArrowRight /></span><b>Age:</b>22</li>
                         <li><span><MdArrowRight /></span><b>Age:</b>22</li>
                     </div>
