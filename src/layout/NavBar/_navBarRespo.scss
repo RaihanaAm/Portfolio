@@ -1,0 +1,117 @@
+@import "../../styles/variable";
+
+// **tablet
+@media (min-width: 767px) and (max-width: 1350px) {
+  .navbar {
+    .resume {
+      right: 5%;
+      ul {
+        li {
+          margin-left: 15px;
+          a {
+            h6 {
+              font-size: 12px;
+              margin: 0 2px;
+            }
+            span {
+              font-size: 12px;
+              font-weight: 500;
+              color: $second;
+            }
+          }
+        }
+        button {
+          margin-left: 18px;
+          width: 80px;
+          height: 25px;
+          font-size: 12px;
+        }
+      }
+    }
+    .icons {
+      height: 17rem;
+      left: 3.5%;
+
+      .icon {
+        a {
+          font-size: 18px;
+        }
+      }
+      .linee {
+        margin-top: 18px;
+        height: 10rem;
+      }
+    }
+    .emails {
+      height: 11.5rem;
+      right: 3.5%;
+      .em {
+        a {
+          font-size: 11px;
+        }
+      }
+      .di {
+        height: 4.5rem;
+      }
+    }
+  }
+}
+
+// ** 4K
+@media (min-width: 2000px) and (max-width: 2700px) {
+  .navbar {
+    .resume {
+      right: 5%;
+      ul {
+        li {
+          margin-left: 35px;
+          a {
+            h6 {
+              font-size: 35px;
+              margin: 0 2px;
+            }
+            span {
+              font-size: 35px;
+              font-weight: 500;
+              color: $second;
+            }
+          }
+        }
+        button {
+          margin-left: 45px;
+          width: 190px;
+          height: 75px;
+          font-size: 35px;
+          border-radius: 15px;
+          border: 3px solid $second;
+        }
+      }
+    }
+    .icons {
+      height: 44rem;
+      left: 3.5%;
+
+      .icon {
+        a {
+          font-size: 45px;
+        }
+      }
+      .linee {
+        margin-top: 18px;
+        height: 30rem;
+      }
+    }
+    .emails {
+      height: 28rem;
+      right: 3.5%;
+      .em {
+        a {
+          font-size: 30px;
+        }
+      }
+      .di {
+        height: 8.5rem;
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import "./_NavBar.scss"
+import "./_navBarRespo.scss"
 import { FiLinkedin } from 'react-icons/fi';
 import { FiGithub } from 'react-icons/fi';
 import { SlSocialFacebook } from 'react-icons/sl';
@@ -7,7 +8,7 @@ import { BiLogoInstagram } from 'react-icons/bi';
 
 export const NavBar = () => {
     return (
-        <div className="navbar ">
+        <div className="navbar  d-none d-md-flex">
             <div className="resume ">
                 <ul className="">
                     <li className="nav-item"><a className="nav-link" href=""><span>01.</span> <h6>About</h6></a></li>
@@ -18,18 +19,20 @@ export const NavBar = () => {
                 </ul>
             </div>
             <div className="icons">
-                <a className="nav-link" href=""><FiGithub /></a>
-                <a className="nav-link" href=""><FiLinkedin /></a>
-                <a className="nav-link" href=""><SlSocialFacebook /></a>
-                <a className="nav-link" href=""><BiLogoInstagram/></a>
-
-                <div></div>
+                <div className="icon">
+                    <a className="" href=""><FiGithub /></a>
+                    <a className="" href=""><FiLinkedin /></a>
+                    <a className="" href=""><SlSocialFacebook /></a>
+                    <a className="" href=""><BiLogoInstagram /></a>
+                </div>
+                <div className="linee"></div>
             </div>
-            <div className="email">
-                <a href="" className="nav-link">Raihana.amrani999@gmail.com</a>
+            <div className="emails">
+                <div className="em">
+                    <a href="" className="">Raihana.amrani999@gmail.com</a>
+                </div>
+                <div className="di"></div>
             </div>
-            <div className="di"></div>
-
         </div>
     )
 }
