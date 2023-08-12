@@ -1,0 +1,95 @@
+@import "../../../../styles/variable";
+
+// **mobil l
+@media (min-width: 320px) and (max-width: 766px) {
+  .About {
+    margin: 100px 0 0 40px;
+    width: 380px;
+    .hi {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .name {
+      .raihana {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 25px;
+        margin: 10px 0;
+      }
+    }
+    .description {
+      width: 92%;
+      font-size: 12px;
+      line-height: 25px;
+    }
+  }
+}
+
+// **tablet
+@media (min-width: 767px) and (max-width: 1000px) {
+  .About {
+    margin: 110px 0 0 100px;
+    width: 600px;
+    .name {
+      .raihana {
+        font-size: 35px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+    }
+    .description {
+      width: 92%;
+      font-size: 13px;
+    }
+  }
+}
+
+// ** 1024px
+@media (min-width: 1000px) and (max-width: 1350px) {
+  .navs {
+    width: 99%;
+  }
+  .About {
+    margin: 120px 0 0 130px;
+    width: 850px;
+    .name {
+      .raihana {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 60px;
+        margin: 0px 0 20px 0 !important;
+      }
+    }
+    .description {
+      width: 92%;
+      font-size: 15px;
+    }
+  }
+}
+
+// ** 4K
+@media (min-width: 2000px) and (max-width: 2700px) {
+  .About {
+    margin: 190px 0 0 250px !important;
+    width: 1790px;
+    .hi{
+        font-size: 25px;
+    }
+    .name {
+      .raihana {
+        font-size: 85px;
+      }
+      h2 {
+        font-size: 105px;
+      }
+    }
+    .description {
+      width: 94%;
+      font-size: 28px;
+      line-height: 50px;
+    }
+  }
+}

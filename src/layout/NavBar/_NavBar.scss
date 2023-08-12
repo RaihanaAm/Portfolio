@@ -1,7 +1,9 @@
 @import "../../styles/variable";
 .navbar {
   .resume {
-    // background-color: $second;
+    z-index: 1000;
+
+    // background-color: aqua;
     position: fixed;
     top: 6%;
     right: 6%;

@@ -7,7 +7,7 @@ import { BiLogoInstagram } from 'react-icons/bi';
 
 export const NavBar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar ">
             <div className="resume ">
                 <ul className="">
                     <li className="nav-item"><a className="nav-link" href=""><span>01.</span> <h6>About</h6></a></li>

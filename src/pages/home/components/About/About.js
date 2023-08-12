@@ -1,6 +1,10 @@
 import "./_About.scss"
+import "./_aboutRespo.scss"
 export const About = () => {
     return (
+        <>
+
+        <div className="navs"></div>
         <div className="About">
             <div className="hi">
                 <p>Hi, my name is</p>
@@ -17,5 +21,6 @@ export const About = () => {
             </div>
             
         </div>
+        </>
     )
 }
