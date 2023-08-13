@@ -7,9 +7,10 @@
   margin-top: 10%;
   padding-bottom: 2%;
   .image {
-    border: 1px solid $second;
     padding: 8px;
     img {
+      padding: 0.5rem;
+      border: 1px solid $second;
       width: 300px;
       height: 300px !important;
     }

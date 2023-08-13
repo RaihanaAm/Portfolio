@@ -1,4 +1,5 @@
 import "./_aboutMe.scss"
+import "./aboutMeRespo.scss"
 import src from "../../assets/images/img.jpg"
 import { MdArrowRight } from "react-icons/md";
 export const AboutMe = () => {

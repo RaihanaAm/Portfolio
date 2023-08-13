@@ -1,0 +1,102 @@
+@import "../../styles/variable";
+// **mobil  s
+@media (min-width: 320px) and (max-width: 424px) {
+    .AboutMe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .image {
+          padding: 8px;
+          margin-bottom: 2rem;
+          img {
+            width: 290px;
+            height: 220px !important;
+            object-fit: cover;
+          }
+        }
+        .aboutt {
+          width: 90%;
+          .title{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 12px;
+            }
+          }
+          ul{
+              width: 100%;
+              flex-direction: column-reverse;
+              li{
+                font-size: 12px;
+              }
+          }
+        }
+      }
+      
+}
+// **mobil l
+@media (min-width: 425px) and (max-width: 766px) {
+    .AboutMe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .image {
+          padding: 8px;
+          margin-bottom: 2rem;
+          img {
+            width: 370px;
+            height: 250px !important;
+            object-fit: cover;
+          }
+        }
+        .aboutt {
+          width: 90%;
+          .title{
+            h1{
+                font-size: 24px;
+            }
+            p{
+                font-size: 14px;
+            }
+          }
+          ul{
+              width: 100%;
+              flex-direction: column-reverse;
+              li{
+                font-size: 14px;
+              }
+          }
+        }
+      }    
+}
+
+// **tablet
+@media (min-width: 767px) and (max-width: 1000px) {
+  .AboutMe {
+    flex-direction: column;
+      align-items: center;
+    justify-content: center;
+ 
+    .image {
+      padding: 10px;
+      margin-bottom: 2rem;
+      img {
+        width: 450px !important;
+        height: 250px !important;
+        object-fit: cover;
+      }
+    }
+    .aboutt {
+      width: 85%;
+    }
+  }
+}
+
+// ** 1024px
+@media (min-width: 1000px) and (max-width: 1350px) {
+}
+
+// ** 4K
+@media (min-width: 2000px) and (max-width: 2700px) {
+}
