@@ -1,83 +1,92 @@
 @import "../../styles/variable";
 // **mobil  s
 @media (min-width: 320px) and (max-width: 424px) {
-    .AboutMe {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .image {
-          padding: 8px;
-          margin-bottom: 2rem;
-          img {
-            width: 290px;
-            height: 220px !important;
-            object-fit: cover;
-          }
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .image {
+      padding: 8px;
+      margin-bottom: 2rem;
+      img {
+        width: 290px;
+        height: 220px !important;
+        object-fit: cover;
+      }
+    }
+    .aboutt {
+      width: 90%;
+      .title {
+        h1 {
+          font-size: 24px;
         }
-        .aboutt {
-          width: 90%;
-          .title{
-            h1{
-                font-size: 24px;
-            }
-            p{
-                font-size: 12px;
-            }
-          }
-          ul{
-              width: 100%;
-              flex-direction: column-reverse;
-              li{
-                font-size: 12px;
-              }
-          }
+        p {
+          font-size: 12px;
         }
       }
-      
+      ul {
+        width: 100%;
+        flex-direction: column-reverse;
+        li {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .skills{
+    .skill {
+      width: 100%;
+    }
+  }
 }
 // **mobil l
 @media (min-width: 425px) and (max-width: 766px) {
-    .AboutMe {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        .image {
-          padding: 8px;
-          margin-bottom: 2rem;
-          img {
-            width: 370px;
-            height: 250px !important;
-            object-fit: cover;
-          }
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .image {
+      padding: 8px;
+      margin-bottom: 2rem;
+      img {
+        width: 370px;
+        height: 250px !important;
+        object-fit: cover;
+      }
+    }
+    .aboutt {
+      width: 90%;
+      .title {
+        h1 {
+          font-size: 24px;
         }
-        .aboutt {
-          width: 90%;
-          .title{
-            h1{
-                font-size: 24px;
-            }
-            p{
-                font-size: 14px;
-            }
-          }
-          ul{
-              width: 100%;
-              flex-direction: column-reverse;
-              li{
-                font-size: 14px;
-              }
-          }
+        p {
+          font-size: 14px;
         }
-      }    
+      }
+      ul {
+        width: 100%;
+        flex-direction: column-reverse;
+        li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .skills{
+    .skill {
+      width: 100%;
+    }
+  }
 }
 
 // **tablet
 @media (min-width: 767px) and (max-width: 1000px) {
   .AboutMe {
     flex-direction: column;
-      align-items: center;
+    align-items: center;
     justify-content: center;
- 
+
     .image {
       padding: 10px;
       margin-bottom: 2rem;
@@ -91,12 +100,81 @@
       width: 85%;
     }
   }
-}
+  .skills {
+    align-items: center;
+    justify-content: center;
 
+  }
+}
 // ** 1024px
 @media (min-width: 1000px) and (max-width: 1350px) {
+  //!
+  .AboutMe {
+    img {
+      width: 220px !important;
+      height: 220px !important;
+
+    }
+    .aboutt {
+      .title {
+        h1 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      ul {
+        li {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
 
 // ** 4K
 @media (min-width: 2000px) and (max-width: 2700px) {
+  .AboutMe {
+    max-width: none !important;
+    .image {
+      img {
+        width: 500px;
+        height: 500px !important;
+      }
+    }
+    .aboutt {
+      width: 50%;
+      .title {
+        h1 {
+          font-size: 60px;
+        }
+        p {
+          font-size: 35px;
+        }
+      }
+      ul {
+        li {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .skills {
+
+    h1 {
+      font-size: 26px;
+    }
+    .skill {
+      p {
+        font-size: 26px;
+        height: 45px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+      }
+    }
+  }
 }
