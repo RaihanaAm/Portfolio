@@ -11,8 +11,8 @@ export const NavBar = () => {
         <div className="navbar  d-none d-md-flex">
             <div className="resume ">
                 <ul className="">
-                    <li className="nav-item"><a className="nav-link" href=""><span>01.</span> <h6>About</h6></a></li>
-                    <li className="nav-item"><a className="nav-link" href=""><span>02.</span> <h6>Experience</h6></a></li>
+                    <li  className="nav-item"><a className="nav-link" href="#about"><span>01.</span> <h6>About</h6></a></li>
+                    <li className="nav-item"><a className="nav-link" href="#experience"><span>02.</span> <h6>Experience</h6></a></li>
                     <li className="nav-item"><a className="nav-link" href=""><span>03.</span> <h6>Portfolio</h6></a></li>
                     <li className="nav-item"><a className="nav-link" href=""><span>04.</span> <h6>Contact</h6></a></li>
                     <button>Resume</button>

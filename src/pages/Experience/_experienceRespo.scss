@@ -1,0 +1,100 @@
+@import "../../styles/variable";
+// **mobil  s
+@media (min-width: 320px) and (max-width: 424px) {
+  .Experience {
+    width: 98% !important;
+    margin: 4rem 0 !important;
+    padding: 0 !important;
+    .title {
+      text-align: center;
+      font-size: 22px;
+    }
+    .tabs {
+      width: 100% !important;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      .left {
+        .list-group {
+          text-align: center;
+          display: block !important;
+          a {
+            width: fit-content !important;
+            text-decoration: none;
+            color: $first;
+            margin: 15px 10px;
+            font-size: 14px;
+          }
+        }
+      }
+      .right {
+        margin-top: 2rem;
+        width: fit-content;
+        .prod {
+          .tableu {
+            .learn {
+              h1 {
+                font-size: 16px;
+              }
+              .content {
+                p {
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// **mobil l
+@media (min-width: 425px) and (max-width: 766px) {
+  .Experience {
+    width: 98% !important;
+    margin: 4rem 0 !important;
+    padding: 0 !important;
+    .title {
+      text-align: center;
+      font-size: 22px;
+    }
+    .tabs {
+      width: 100% !important;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      .left {
+        .list-group {
+          text-align: center;
+          display: block !important;
+          a {
+            width: fit-content !important;
+            text-decoration: none;
+            color: $first;
+            margin: 15px 10px;
+            font-size: 16px;
+          }
+        }
+      }
+      .right {
+        margin-top: 2rem;
+        width: fit-content;
+        .prod {
+          .tableu {
+            .learn {
+              h1 {
+                font-size: 17px;
+              }
+              .content {
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -24,8 +24,7 @@
         color: $second;
         opacity: 0.8;
       }
-      span {
-        // font-weight: bold;
+      .span {
         color: $second;
         opacity: 0.8;
       }
@@ -57,7 +56,7 @@
 }
 .skills {
   background-color: $bg;
-  margin: 2.5rem 0;
+  margin:1.5rem 0;
   color: $first;
   display: flex;
   flex-direction: column;
@@ -65,9 +64,6 @@
   justify-content: start;
   h1 {
     font-size: 16px;
-    color: $second;
-    opacity: 0.8;
-    font-weight: bold;
   }
   .skill {
     width: 85%;

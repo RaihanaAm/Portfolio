@@ -1,0 +1,68 @@
+@import "../../styles/variable";
+
+.Experience {
+  width: 75% !important;
+  margin: 7rem 0;
+  color: $first;
+  .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $second;
+    opacity: 0.7;
+  }
+  .tabs {
+    width: 70% !important;
+    margin-top: 3rem;
+    display: flex;
+    // align-items: center;
+    justify-content: space-evenly;
+    .left {
+      .active {
+        color: $second !important;
+        // opacity: 0.8;
+        border-bottom: 2px solid $second;
+      }
+
+      a {
+        width: fit-content !important;
+        text-decoration: none;
+        color: $first;
+        margin: 0 0 15px 0;
+        font-size: 16px;
+      }
+    }
+    .right {
+      width: 450px;
+      .prod {
+        .tableu {
+          display: flex !important;
+          flex-wrap: wrap;
+          .learn {
+            h1 {
+              font-size: 22px;
+              .icon {
+                color: $second;
+              }
+            }
+            .content{
+                margin: 0.5rem 0 0 1.5rem;
+                h5{
+                    color: $second;
+                    font-size: 12px;
+                }
+                h6{
+                    font-style: italic;
+                    font-weight: lighter;
+                    font-size: 13px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}
