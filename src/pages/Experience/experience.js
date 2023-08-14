@@ -4,9 +4,9 @@ import { MdArrowRight } from "react-icons/md";
 
 export const Experience = () => {
     return (
-        <div className="Experience container-md" id="experience">
+        <div className="Experience container-lg" id="experience">
             <h1 className="title">EXPERIENCE</h1>
-            <div className="tabs container-md">
+            <div className="tabs container-lg">
                 <div className="left">
                     <div className="list-group" id="list-tab" role="tablist">
                         <a
