@@ -88,17 +88,16 @@ export const Experience = () => {
                                             <h6>company-Germany</h6>
                                             <p>I worked with them remotely as a UI/UX designer</p>
                                         </div>
-                                   
-                                </div>
 
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>
-
-        </div >
     )
 }

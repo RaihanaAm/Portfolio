@@ -1,5 +1,6 @@
 import { Experience } from "../Experience/experience"
 import { AboutMe } from "../aboutMe/aboutMe"
+import { Portfolio } from "../portfolio/portfolio"
 import "./_home.scss"
 import { About } from "./components/About/About"
 export const Home =()=>{
@@ -8,6 +9,7 @@ export const Home =()=>{
             <About/>
             <AboutMe />
             <Experience/>
+            <Portfolio/>
             
         </div>
     )
